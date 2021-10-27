@@ -1,0 +1,9 @@
+	public static void reverseArray(int[] intArr) {
+		
+		for (int i = 0; i < intArr.length / 2; i++) {
+			int temp = intArr[i];
+			intArr[i] = intArr[intArr.length - 1 - i];
+			intArr[intArr.length - 1 - i] = temp;
+		}
+		
+	}
